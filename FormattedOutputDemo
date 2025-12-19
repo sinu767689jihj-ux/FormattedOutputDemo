@@ -1,0 +1,16 @@
+class FormattedOutputDemo {
+    public static void main(String[] args) {
+
+        int age = 20;
+        double pi = 3.14;
+        char grade = 'A';
+        String name = "Srinuvasulu";
+        boolean b = true;
+
+        System.out.printf("Age: %d%n", age);
+        System.out.printf("Pi: %.2f%n", pi);
+        System.out.printf("Grade: %c%n", grade);
+        System.out.printf("Name: %s%n", name);
+        System.out.printf("Boolean: %b%n", b);
+    }
+}
